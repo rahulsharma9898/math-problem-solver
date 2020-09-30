@@ -42,15 +42,15 @@ int main()
         std::cout << " Enter 5 if question is related to Area of Sector.\n"
                   << std::endl;
 
-        int cv;
+        int circle;
 
         std::cout << "Enter the above value:";
 
-        cin >> cv;
+        cin >> circle;
 
         //************************** 1 Radius and Diameter *****************************//
 
-        if (cv == 1)
+        if (circle == 1)
         {
             std::cout << "\nRadius and Diameter:-\n"
                       << std::endl;
@@ -122,7 +122,7 @@ int main()
 
         //************************** 2 Circumference of Circle *****************************//
 
-        else if (cv == 2)
+        else if (circle == 2)
         {
 
             std::cout << "\nCircumference of Circle:-\n"
@@ -188,7 +188,7 @@ int main()
 
         //************************** 3 Area of the Circle *****************************//
 
-        else if (cv == 3)
+        else if (circle == 3)
         {
 
             std::cout << "\nArea of the Circle:-\n"
@@ -248,7 +248,7 @@ int main()
 
         //************************** 4 Length of an Arc *****************************//
 
-        else if (cv == 4)
+        else if (circle == 4)
         {
 
             std::cout << "\nLength of an Arc:-\n"
@@ -297,7 +297,7 @@ int main()
                           << std::endl;
 
                 double latheta1;
-                std::cout << "Enter the given theta:";
+                std::cout << "Enter the given 0:";
                 cin >> latheta1;
 
                 double arclength;
@@ -347,7 +347,7 @@ int main()
 
         //************************** 5 Area of Sector *****************************//
 
-        else if (cv == 5)
+        else if (circle == 5)
         {
 
             std::cout << "\nArea of Sector:-\n"
